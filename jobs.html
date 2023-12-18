@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>JavaJam Coffee House</title>
+        <link rel="stylesheet"href="javajam.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Job at JavaJam</h2>
+            <p>Want to work at JavaJam?Fill out the form below to start your application.<br>Required
+                fields are marked with an asterisk (*).</p>
+
+            <form  method="post" action="http://webdevbasics.net/scripts/javajam8.php.">
+                <label for="myName">*Name:</label><input required type="text" name="myName" id="myName">
+                <label for="myEmail">*E-mail:</label><input required type="text" name="myEmail" id="myEmail">
+                <label for="myExperience">*Experience:</label><textarea required name="myExperience" id="myExperience" cols="20" rows="2"></textarea>
+                <input type="submit" value="Apply Now" id="mySubmit">
+            </form>
+        </main>
+        <footer>
+                Copyright © 2018 JavaJam Coffee House<br>
+                <a href="mailto.aaa@aaa.com">JavaJamCoffee@aaa.com</a><br>
+                <a href="http://www.google.com">Google</a><br>
+                <a href="http://www.youtube.com"target="_blank">Youtube</a>
+        </footer>
+    </div>
+    </body>
+</html>
